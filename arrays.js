@@ -11,3 +11,5 @@ ages.push(30);
 // The .shift method will remove the element in the first index position which would be "false"
 female.shift();
 
+// Index positions of arrays always begin with 0. For example, in the friends array above, "Bobby" is in the 0 index position
+// If I were to run console.log(friends[3]) on my original array without the friends.pop(); then it would return "Doriana"
